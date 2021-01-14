@@ -17,4 +17,10 @@ kubectl describe pods // in depth information on pods
 kubectl get services // list of all services 
 
 kubectl expose deployment/$deployment_name --type="NodePort" --port $port
+
+// scaling 
+
+kubectl scale deployments/$deployment_name --replicas=$number_of_replicas
+
+kubectl get pods -o wide
 ```
