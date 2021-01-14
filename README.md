@@ -16,7 +16,7 @@ kubectl describe pods // in depth information on pods
 
 kubectl get services // list of all services 
 
-kubectl expose deployment/$deployment_name --type="NodePort" --port $port
+kubectl expose deployment/$deployment_name --type="NodePort" --port $port // make deployment publically accessible
 
 // scaling 
 
