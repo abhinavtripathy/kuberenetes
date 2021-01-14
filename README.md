@@ -13,4 +13,8 @@ kubectl create deployment $name --image=$imageURL // create a deployment with an
 kubectl get deployments // list of all deployments
 
 kubectl describe pods // in depth information on pods
+
+kubectl get services // list of all services 
+
+kubectl expose deployment/$deployment_name --type="NodePort" --port $port
 ```
