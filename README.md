@@ -11,4 +11,6 @@ kubectl get nodes // get all nodes
 kubectl create deployment $name --image=$imageURL // create a deployment with an image
 
 kubectl get deployments // list of all deployments
+
+kubectl describe pods // in depth information on pods
 ```
